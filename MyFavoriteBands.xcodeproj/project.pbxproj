@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBF642BA233997F50080D011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF642B9233997F50080D011 /* AppDelegate.swift */; };
+		BBF642BC233997F50080D011 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF642BB233997F50080D011 /* SceneDelegate.swift */; };
+		BBF642BE233997F50080D011 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF642BD233997F50080D011 /* MasterViewController.swift */; };
+		BBF642C0233997F50080D011 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF642BF233997F50080D011 /* DetailViewController.swift */; };
+		BBF642C3233997F50080D011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF642C1233997F50080D011 /* Main.storyboard */; };
+		BBF642C5233997F60080D011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF642C4233997F60080D011 /* Assets.xcassets */; };
+		BBF642C8233997F60080D011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF642C6233997F60080D011 /* LaunchScreen.storyboard */; };
+		BBF642D32339A87A0080D011 /* Pink Floyd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642D22339A87A0080D011 /* Pink Floyd.jpg */; };
+		BBF642D52339ABB30080D011 /* Creedence Clearwater Revival.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642D42339ABB30080D011 /* Creedence Clearwater Revival.jpg */; };
+		BBF642D72339ABF60080D011 /* Gorillaz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642D62339ABF60080D011 /* Gorillaz.jpg */; };
+		BBF642D92339AC4E0080D011 /* Rainbow Kitten Surprise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642D82339AC4E0080D011 /* Rainbow Kitten Surprise.jpg */; };
+		BBF642DB2339AC9B0080D011 /* Neon Indian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642DA2339AC9B0080D011 /* Neon Indian.jpg */; };
+		BBF642DD2339ACCE0080D011 /* Unknown Mortal Orchestra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642DC2339ACCE0080D011 /* Unknown Mortal Orchestra.jpg */; };
+		BBF642DF2339AD220080D011 /* Car Seat Headrest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642DE2339AD220080D011 /* Car Seat Headrest.jpg */; };
+		BBF642E12339AD570080D011 /* Wavves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642E02339AD570080D011 /* Wavves.jpg */; };
+		BBF642E32339ADA70080D011 /* Sugar Candy Mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642E22339ADA70080D011 /* Sugar Candy Mountain.jpg */; };
+		BBF642E52339AF260080D011 /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF642E42339AF260080D011 /* main.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBF642B6233997F50080D011 /* MyFavoriteBands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavoriteBands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF642B9233997F50080D011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBF642BB233997F50080D011 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBF642BD233997F50080D011 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		BBF642BF233997F50080D011 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BBF642C2233997F50080D011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBF642C4233997F60080D011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBF642C7233997F60080D011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBF642C9233997F60080D011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF642D22339A87A0080D011 /* Pink Floyd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pink Floyd.jpg"; sourceTree = "<group>"; };
+		BBF642D42339ABB30080D011 /* Creedence Clearwater Revival.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Creedence Clearwater Revival.jpg"; sourceTree = "<group>"; };
+		BBF642D62339ABF60080D011 /* Gorillaz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gorillaz.jpg; sourceTree = "<group>"; };
+		BBF642D82339AC4E0080D011 /* Rainbow Kitten Surprise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rainbow Kitten Surprise.jpg"; sourceTree = "<group>"; };
+		BBF642DA2339AC9B0080D011 /* Neon Indian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Neon Indian.jpg"; sourceTree = "<group>"; };
+		BBF642DC2339ACCE0080D011 /* Unknown Mortal Orchestra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown Mortal Orchestra.jpg"; sourceTree = "<group>"; };
+		BBF642DE2339AD220080D011 /* Car Seat Headrest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Car Seat Headrest.jpg"; sourceTree = "<group>"; };
+		BBF642E02339AD570080D011 /* Wavves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wavves.jpg; sourceTree = "<group>"; };
+		BBF642E22339ADA70080D011 /* Sugar Candy Mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sugar Candy Mountain.jpg"; sourceTree = "<group>"; };
+		BBF642E42339AF260080D011 /* main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF642B3233997F50080D011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBF642AD233997F50080D011 = {
+			isa = PBXGroup;
+			children = (
+				BBF642CF23399D840080D011 /* Images */,
+				BBF642B8233997F50080D011 /* MyFavoriteBands */,
+				BBF642B7233997F50080D011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF642B7233997F50080D011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF642B6233997F50080D011 /* MyFavoriteBands.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF642B8233997F50080D011 /* MyFavoriteBands */ = {
+			isa = PBXGroup;
+			children = (
+				BBF642B9233997F50080D011 /* AppDelegate.swift */,
+				BBF642BB233997F50080D011 /* SceneDelegate.swift */,
+				BBF642BD233997F50080D011 /* MasterViewController.swift */,
+				BBF642BF233997F50080D011 /* DetailViewController.swift */,
+				BBF642C1233997F50080D011 /* Main.storyboard */,
+				BBF642C4233997F60080D011 /* Assets.xcassets */,
+				BBF642C6233997F60080D011 /* LaunchScreen.storyboard */,
+				BBF642C9233997F60080D011 /* Info.plist */,
+			);
+			path = MyFavoriteBands;
+			sourceTree = "<group>";
+		};
+		BBF642CF23399D840080D011 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BBF642E42339AF260080D011 /* main.jpg */,
+				BBF642E22339ADA70080D011 /* Sugar Candy Mountain.jpg */,
+				BBF642E02339AD570080D011 /* Wavves.jpg */,
+				BBF642DE2339AD220080D011 /* Car Seat Headrest.jpg */,
+				BBF642DC2339ACCE0080D011 /* Unknown Mortal Orchestra.jpg */,
+				BBF642DA2339AC9B0080D011 /* Neon Indian.jpg */,
+				BBF642D82339AC4E0080D011 /* Rainbow Kitten Surprise.jpg */,
+				BBF642D62339ABF60080D011 /* Gorillaz.jpg */,
+				BBF642D42339ABB30080D011 /* Creedence Clearwater Revival.jpg */,
+				BBF642D22339A87A0080D011 /* Pink Floyd.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF642B5233997F50080D011 /* MyFavoriteBands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF642CC233997F60080D011 /* Build configuration list for PBXNativeTarget "MyFavoriteBands" */;
+			buildPhases = (
+				BBF642B2233997F50080D011 /* Sources */,
+				BBF642B3233997F50080D011 /* Frameworks */,
+				BBF642B4233997F50080D011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFavoriteBands;
+			productName = MyFavoriteBands;
+			productReference = BBF642B6233997F50080D011 /* MyFavoriteBands.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF642AE233997F50080D011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Roberto Ocampo";
+				TargetAttributes = {
+					BBF642B5233997F50080D011 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = BBF642B1233997F50080D011 /* Build configuration list for PBXProject "MyFavoriteBands" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBF642AD233997F50080D011;
+			productRefGroup = BBF642B7233997F50080D011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF642B5233997F50080D011 /* MyFavoriteBands */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF642B4233997F50080D011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF642C8233997F60080D011 /* LaunchScreen.storyboard in Resources */,
+				BBF642DB2339AC9B0080D011 /* Neon Indian.jpg in Resources */,
+				BBF642D32339A87A0080D011 /* Pink Floyd.jpg in Resources */,
+				BBF642C5233997F60080D011 /* Assets.xcassets in Resources */,
+				BBF642E52339AF260080D011 /* main.jpg in Resources */,
+				BBF642DD2339ACCE0080D011 /* Unknown Mortal Orchestra.jpg in Resources */,
+				BBF642C3233997F50080D011 /* Main.storyboard in Resources */,
+				BBF642D52339ABB30080D011 /* Creedence Clearwater Revival.jpg in Resources */,
+				BBF642DF2339AD220080D011 /* Car Seat Headrest.jpg in Resources */,
+				BBF642E12339AD570080D011 /* Wavves.jpg in Resources */,
+				BBF642D72339ABF60080D011 /* Gorillaz.jpg in Resources */,
+				BBF642D92339AC4E0080D011 /* Rainbow Kitten Surprise.jpg in Resources */,
+				BBF642E32339ADA70080D011 /* Sugar Candy Mountain.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF642B2233997F50080D011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF642BA233997F50080D011 /* AppDelegate.swift in Sources */,
+				BBF642BC233997F50080D011 /* SceneDelegate.swift in Sources */,
+				BBF642BE233997F50080D011 /* MasterViewController.swift in Sources */,
+				BBF642C0233997F50080D011 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBF642C1233997F50080D011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF642C2233997F50080D011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBF642C6233997F60080D011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF642C7233997F60080D011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBF642CA233997F60080D011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBF642CB233997F60080D011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBF642CD233997F60080D011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFavoriteBands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvelleycollege.MyFavoriteBands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBF642CE233997F60080D011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFavoriteBands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvelleycollege.MyFavoriteBands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF642B1233997F50080D011 /* Build configuration list for PBXProject "MyFavoriteBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF642CA233997F60080D011 /* Debug */,
+				BBF642CB233997F60080D011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF642CC233997F60080D011 /* Build configuration list for PBXNativeTarget "MyFavoriteBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF642CD233997F60080D011 /* Debug */,
+				BBF642CE233997F60080D011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF642AE233997F50080D011 /* Project object */;
+}
